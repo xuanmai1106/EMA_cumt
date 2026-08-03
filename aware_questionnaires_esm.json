@@ -1,0 +1,598 @@
+[
+  {
+    "schedule_id": "zz_baseline_20260803",
+    "start_date": "08-03-2026",
+    "end_date": "08-04-2026",
+    "hours": [0],
+    "randomize": 0,
+    "expiration": 1440,
+    "interface": 0,
+    "context": [],
+    "notification_title": "基线调查问卷",
+    "notification_body": "请完成研究开始前的基线调查问卷。",
+    "esms": [
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A1_gender",
+          "esm_title": "A1 性别",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": ["男", "女"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_A2_age",
+          "esm_title": "A2 年龄（周岁）",
+          "esm_instructions": "请输入周岁年龄。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A3_grade",
+          "esm_title": "A3 年级",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": ["大一", "大二", "大三", "大四", "研一", "研二", "研三", "其他"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 1,
+          "esm_trigger": "baseline_A4_college_major",
+          "esm_title": "A4 学院/专业",
+          "esm_instructions": "请输入所在学院和专业。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_A5_height_cm",
+          "esm_title": "A5 身高（cm）",
+          "esm_instructions": "请输入身高，单位为厘米。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_A6_weight_kg",
+          "esm_title": "A6 体重（kg）",
+          "esm_instructions": "请输入体重，单位为千克。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A7_self_rated_health",
+          "esm_title": "A7 自评健康状况",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": ["很差", "较差", "一般", "较好", "很好"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A8_dormitory",
+          "esm_title": "A8 宿舍居住情况",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": ["单人居住", "2人间", "3-4人间", "5人及以上", "其他"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A9_phone_os",
+          "esm_title": "A9 当前日常主要使用手机系统",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": ["Android", "iOS", "其他"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A10_primary_phone",
+          "esm_title": "A10 该手机是否为本人日常主要使用手机",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": ["是", "否"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A11_carry_phone",
+          "esm_title": "A11 研究期间是否能够保持手机基本随身携带",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": ["是", "否"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A12_aware_background",
+          "esm_title": "A12 研究期间是否能够保持 AWARE 研究端后台运行及必要权限开启",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": ["是", "否"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A13_complete_surveys",
+          "esm_title": "A13 研究期间是否愿意按要求完成 EMA 与次日回忆问卷",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": ["是", "否"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P1",
+          "esm_title": "P1 因发生意料之外的事情而感到心烦意乱。",
+          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
+          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P2",
+          "esm_title": "P2 感到无法控制生活中重要的事情。",
+          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
+          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P3",
+          "esm_title": "P3 感到紧张和有压力。",
+          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
+          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P4",
+          "esm_title": "P4 能够成功处理令人烦恼的生活问题。",
+          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
+          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PSS-10",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P5",
+          "esm_title": "P5 感到自己能够有效应对生活中发生的重要变化。",
+          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
+          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PSS-10",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P6",
+          "esm_title": "P6 对自己处理个人问题的能力有信心。",
+          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
+          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PSS-10",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P7",
+          "esm_title": "P7 感到事情正按照自己的意愿发展。",
+          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
+          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PSS-10",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P8",
+          "esm_title": "P8 发现自己无法应付必须完成的所有事情。",
+          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
+          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P9",
+          "esm_title": "P9 能够控制生活中的烦恼。",
+          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
+          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PSS-10",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P10",
+          "esm_title": "P10 感到困难不断累积，已经达到难以克服的程度。",
+          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
+          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PHQ9_D1",
+          "esm_title": "D1 做事时提不起兴趣或没有乐趣。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PHQ-9"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PHQ9_D2",
+          "esm_title": "D2 感到心情低落、沮丧或绝望。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PHQ-9"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PHQ9_D3",
+          "esm_title": "D3 入睡困难、睡不安稳或睡眠过多。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PHQ-9"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PHQ9_D4",
+          "esm_title": "D4 感到疲倦或没有精力。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PHQ-9"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PHQ9_D5",
+          "esm_title": "D5 食欲不振或吃得过多。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PHQ-9"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PHQ9_D6",
+          "esm_title": "D6 觉得自己很糟，或觉得自己失败、让自己或家人失望。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PHQ-9"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PHQ9_D7",
+          "esm_title": "D7 对读书、看电视等事情难以集中注意力。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PHQ-9"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PHQ9_D8",
+          "esm_title": "D8 动作或说话速度慢到别人已经察觉，或相反，烦躁不安、动来动去。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PHQ-9"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PHQ9_D9",
+          "esm_title": "D9 出现过不如死掉或用某种方式伤害自己的想法。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "PHQ-9"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_GAD7_G1",
+          "esm_title": "G1 感到紧张、焦虑或急切。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "GAD-7"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_GAD7_G2",
+          "esm_title": "G2 无法停止或控制担忧。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "GAD-7"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_GAD7_G3",
+          "esm_title": "G3 对各种各样的事情担忧过多。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "GAD-7"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_GAD7_G4",
+          "esm_title": "G4 难以放松。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "GAD-7"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_GAD7_G5",
+          "esm_title": "G5 坐立不安，难以安静下来。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "GAD-7"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_GAD7_G6",
+          "esm_title": "G6 容易烦躁或易怒。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "GAD-7"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_GAD7_G7",
+          "esm_title": "G7 感到好像有什么可怕的事情会发生。",
+          "esm_instructions": "过去两周内：0 完全没有；1 几天；2 一半以上天数；3 几乎每天。",
+          "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
+          "esm_submit": "提交基线问卷",
+          "esm_expiration_threshold": 1440,
+          "esm_na": false,
+          "scale": "GAD-7"
+        }
+      }
+    ]
+  },
+  {
+    "schedule_id": "ema_pss4_7day_20260803",
+    "start_date": "08-03-2026",
+    "end_date": "08-10-2026",
+    "hours": [10, 15, 21],
+    "randomize": 60,
+    "expiration": 0,
+    "interface": 1,
+    "context": [],
+    "notification_title": "感知压力即时问卷",
+    "notification_body": "请根据过去30分钟内的真实感受完成本次问卷。",
+    "esms": [
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B1_uncontrollable",
+          "esm_title": "过去30分钟内，我感到无法控制生活中重要的事情。",
+          "esm_instructions": "1 完全没有；2 较少；3 一般；4 较多；5 非常多。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有",
+          "esm_likert_max_label": "非常多",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 0,
+          "esm_na": false,
+          "scale": "EMA-PSS-4",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B2_confident",
+          "esm_title": "过去30分钟内，我感到有信心处理个人问题。",
+          "esm_instructions": "1 完全没有；2 较少；3 一般；4 较多；5 非常多。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有",
+          "esm_likert_max_label": "非常多",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 0,
+          "esm_na": false,
+          "scale": "EMA-PSS-4",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B3_as_intended",
+          "esm_title": "过去30分钟内，我感到事情正按照我的意愿发展。",
+          "esm_instructions": "1 完全没有；2 较少；3 一般；4 较多；5 非常多。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有",
+          "esm_likert_max_label": "非常多",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 0,
+          "esm_na": false,
+          "scale": "EMA-PSS-4",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B4_difficulties_piling_up",
+          "esm_title": "过去30分钟内，我感到困难不断累积，已经达到难以克服的程度。",
+          "esm_instructions": "1 完全没有；2 较少；3 一般；4 较多；5 非常多。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有",
+          "esm_likert_max_label": "非常多",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 0,
+          "esm_na": false,
+          "scale": "EMA-PSS-4",
+          "reverse_scored": false
+        }
+      }
+    ]
+  }
+]
