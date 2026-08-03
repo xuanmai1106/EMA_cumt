@@ -20,7 +20,7 @@
           "esm_radios": ["男", "女"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -31,7 +31,7 @@
           "esm_instructions": "请输入周岁年龄。",
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -43,7 +43,7 @@
           "esm_radios": ["大一", "大二", "大三", "大四", "研一", "研二", "研三", "其他"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -54,7 +54,7 @@
           "esm_instructions": "请输入所在学院和专业。",
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -65,7 +65,7 @@
           "esm_instructions": "请输入身高，单位为厘米。",
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -76,7 +76,7 @@
           "esm_instructions": "请输入体重，单位为千克。",
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -88,7 +88,7 @@
           "esm_radios": ["很差", "较差", "一般", "较好", "很好"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -100,7 +100,7 @@
           "esm_radios": ["单人居住", "2人间", "3-4人间", "5人及以上", "其他"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -112,7 +112,7 @@
           "esm_radios": ["Android", "iOS", "其他"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -124,7 +124,7 @@
           "esm_radios": ["是", "否"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -136,7 +136,7 @@
           "esm_radios": ["是", "否"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -148,7 +148,7 @@
           "esm_radios": ["是", "否"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -160,7 +160,7 @@
           "esm_radios": ["是", "否"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false
+          "esm_na": 0
         }
       },
       {
@@ -172,7 +172,7 @@
           "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PSS-10",
           "reverse_scored": false
         }
@@ -186,7 +186,7 @@
           "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PSS-10",
           "reverse_scored": false
         }
@@ -200,7 +200,7 @@
           "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PSS-10",
           "reverse_scored": false
         }
@@ -214,7 +214,7 @@
           "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PSS-10",
           "reverse_scored": true
         }
@@ -228,7 +228,7 @@
           "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PSS-10",
           "reverse_scored": true
         }
@@ -242,7 +242,7 @@
           "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PSS-10",
           "reverse_scored": true
         }
@@ -256,7 +256,7 @@
           "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PSS-10",
           "reverse_scored": true
         }
@@ -270,7 +270,7 @@
           "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PSS-10",
           "reverse_scored": false
         }
@@ -284,7 +284,7 @@
           "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PSS-10",
           "reverse_scored": true
         }
@@ -298,7 +298,7 @@
           "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PSS-10",
           "reverse_scored": false
         }
@@ -312,7 +312,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PHQ-9"
         }
       },
@@ -325,7 +325,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PHQ-9"
         }
       },
@@ -338,7 +338,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PHQ-9"
         }
       },
@@ -351,7 +351,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PHQ-9"
         }
       },
@@ -364,7 +364,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PHQ-9"
         }
       },
@@ -377,7 +377,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PHQ-9"
         }
       },
@@ -390,7 +390,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PHQ-9"
         }
       },
@@ -403,7 +403,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PHQ-9"
         }
       },
@@ -416,7 +416,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "PHQ-9"
         }
       },
@@ -429,7 +429,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "GAD-7"
         }
       },
@@ -442,7 +442,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "GAD-7"
         }
       },
@@ -455,7 +455,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "GAD-7"
         }
       },
@@ -468,7 +468,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "GAD-7"
         }
       },
@@ -481,7 +481,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "GAD-7"
         }
       },
@@ -494,7 +494,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "GAD-7"
         }
       },
@@ -507,7 +507,7 @@
           "esm_radios": ["0 - 完全没有", "1 - 几天", "2 - 一半以上天数", "3 - 几乎每天"],
           "esm_submit": "提交基线问卷",
           "esm_expiration_threshold": 1440,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "GAD-7"
         }
       }
@@ -537,7 +537,7 @@
           "esm_likert_step": 1,
           "esm_submit": "提交本次问卷",
           "esm_expiration_threshold": 0,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "EMA-PSS-4",
           "reverse_scored": false
         }
@@ -554,7 +554,7 @@
           "esm_likert_step": 1,
           "esm_submit": "提交本次问卷",
           "esm_expiration_threshold": 0,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "EMA-PSS-4",
           "reverse_scored": true
         }
@@ -571,7 +571,7 @@
           "esm_likert_step": 1,
           "esm_submit": "提交本次问卷",
           "esm_expiration_threshold": 0,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "EMA-PSS-4",
           "reverse_scored": true
         }
@@ -588,7 +588,7 @@
           "esm_likert_step": 1,
           "esm_submit": "提交本次问卷",
           "esm_expiration_threshold": 0,
-          "esm_na": false,
+          "esm_na": 0,
           "scale": "EMA-PSS-4",
           "reverse_scored": false
         }
