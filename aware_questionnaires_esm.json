@@ -565,7 +565,7 @@
     "end_date": "12-31-2026",
     "hours": [9],
     "randomize": 0,
-    "expiration": 180,
+    "expiration": 900,
     "interface": 1,
     "context": [],
     "notification_title": "次日回忆问卷",
