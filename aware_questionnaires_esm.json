@@ -573,11 +573,11 @@
     "esms": [
       {
         "esm": {
-          "esm_type": 12,
+          "esm_type": 13,
           "esm_trigger": "recall_R1_sleep_onset_time",
           "esm_title": "前一晚实际入睡时间",
           "esm_instructions": "请选择您实际睡着的大致时间。",
-          "esm_minute_step": 5,
+          
           "esm_submit": "下一题",
           "esm_expiration_threshold": 180,
           "esm_na": false
@@ -585,11 +585,11 @@
       },
       {
         "esm": {
-          "esm_type": 12,
+          "esm_type": 13,
           "esm_trigger": "recall_R2_final_wake_time",
           "esm_title": "今晨最终醒来时间",
           "esm_instructions": "请选择今晨最终醒来且不再继续睡的时间。",
-          "esm_minute_step": 5,
+          
           "esm_submit": "下一题",
           "esm_expiration_threshold": 180,
           "esm_na": false
