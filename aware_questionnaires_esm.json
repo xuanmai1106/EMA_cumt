@@ -1,7 +1,7 @@
 [
   {
     "schedule_id": "zz_baseline_20260803",
-    "start_date": "08-13-2026",
+    "start_date": "08-24-2026",
     "end_date": "12-31-2026",
     "hours": [0],
     "randomize": 0,
@@ -479,7 +479,7 @@
   },
   {
     "schedule_id": "ema_pss4_7day_20260803",
-    "start_date": "08-13-2026",
+    "start_date": "08-24-2026",
     "end_date": "12-31-2026",
     "hours": [9, 15, 21],
     "randomize": 60,
@@ -561,7 +561,7 @@
   },
   {
     "schedule_id": "next_day_recall_20260814",
-    "start_date": "08-14-2026",
+    "start_date": "08-24-2026",
     "end_date": "12-31-2026",
     "hours": [9],
     "randomize": 0,
