@@ -1,8 +1,8 @@
 [
   {
     "schedule_id": "zz_baseline_20260803",
-    "start_date": "09-07-2026",
-    "end_date": "09-20-2026",
+    "start_date": "09-10-2026",
+    "end_date": "09-23-2026",
     "hours": [0],
     "randomize": 0,
     "expiration": 1440,
@@ -479,8 +479,8 @@
   },
   {
     "schedule_id": "ema_pss4_7day_20260803",
-    "start_date": "09-07-2026",
-    "end_date": "09-20-2026",
+    "start_date": "09-10-2026",
+    "end_date": "09-23-2026",
     "hours": [9, 15, 21],
     "randomize": 60,
     "expiration": 180,
@@ -561,8 +561,8 @@
   },
   {
     "schedule_id": "next_day_recall_20260814",
-    "start_date": "09-07-2026",
-    "end_date": "09-20-2026",
+    "start_date": "09-10-2026",
+    "end_date": "09-23-2026",
     "hours": [9],
     "randomize": 0,
     "expiration": 900,
