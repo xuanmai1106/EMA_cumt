@@ -650,17 +650,6 @@
           "esm_expiration_threshold": 900,
           "esm_na": 0
         }
-      },
-      {
-        "esm": {
-          "esm_type": 9,
-          "esm_trigger": "recall_R8_phone_data_gap_minutes",
-          "esm_title": "前一日手机未随身或记录中断时长（分钟）",
-          "esm_instructions": "填写未随身携带、关机、没电、权限关闭或AWARE后台停止的累计分钟数；没有请填0。",
-          "esm_submit": "提交次日回忆问卷",
-          "esm_expiration_threshold": 900,
-          "esm_na": 0
-        }
       }
     ]
   }
