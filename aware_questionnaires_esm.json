@@ -131,9 +131,15 @@
         "esm": {
           "esm_type": 2,
           "esm_trigger": "baseline_PSS10_P1",
-          "esm_title": "P1 因发生意料之外的事情而感到心烦意乱。",
-          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
-          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_title": "P1 在过去的一个月里，你有多少时间因为发生意外的事情而感到心烦意乱？",
+          "esm_instructions": "以下问题询问你在过去一个月的一些感受和想法。请根据实际情况选择：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
           "esm_na": 0,
@@ -145,9 +151,15 @@
         "esm": {
           "esm_type": 2,
           "esm_trigger": "baseline_PSS10_P2",
-          "esm_title": "P2 感到无法控制生活中重要的事情。",
-          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
-          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_title": "P2 在过去的一个月里，有多少时间你感到无法掌控生活中重要的事情？",
+          "esm_instructions": "以下问题询问你在过去一个月的一些感受和想法。请根据实际情况选择：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
           "esm_na": 0,
@@ -159,9 +171,15 @@
         "esm": {
           "esm_type": 2,
           "esm_trigger": "baseline_PSS10_P3",
-          "esm_title": "P3 感到紧张和有压力。",
-          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
-          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_title": "P3 在过去的一个月里，有多少时间你感觉到神经紧张或“快被压垮了”？",
+          "esm_instructions": "以下问题询问你在过去一个月的一些感受和想法。请根据实际情况选择：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
           "esm_na": 0,
@@ -173,9 +191,15 @@
         "esm": {
           "esm_type": 2,
           "esm_trigger": "baseline_PSS10_P4",
-          "esm_title": "P4 能够成功处理令人烦恼的生活问题。",
-          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
-          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_title": "P4 在过去的一个月里，有多少时间你对自己处理个人问题的能力感到有信心？",
+          "esm_instructions": "以下问题询问你在过去一个月的一些感受和想法。请根据实际情况选择：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
           "esm_na": 0,
@@ -187,9 +211,15 @@
         "esm": {
           "esm_type": 2,
           "esm_trigger": "baseline_PSS10_P5",
-          "esm_title": "P5 感到自己能够有效应对生活中发生的重要变化。",
-          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
-          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_title": "P5 在过去的一个月里，有多少时间你感到事情发展和你预料的一样？",
+          "esm_instructions": "以下问题询问你在过去一个月的一些感受和想法。请根据实际情况选择：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
           "esm_na": 0,
@@ -201,23 +231,35 @@
         "esm": {
           "esm_type": 2,
           "esm_trigger": "baseline_PSS10_P6",
-          "esm_title": "P6 对自己处理个人问题的能力有信心。",
-          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
-          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_title": "P6 在过去的一个月里，有多少时间你发现自己无法应付那些你必须去做的事情。",
+          "esm_instructions": "以下问题询问你在过去一个月的一些感受和想法。请根据实际情况选择：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
           "esm_na": 0,
           "scale": "PSS-10",
-          "reverse_scored": true
+          "reverse_scored": false
         }
       },
       {
         "esm": {
           "esm_type": 2,
           "esm_trigger": "baseline_PSS10_P7",
-          "esm_title": "P7 感到事情正按照自己的意愿发展。",
-          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
-          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_title": "P7 在过去的一个月里，日常生活中有多少时间你能够控制自己的愤怒情绪？",
+          "esm_instructions": "以下问题询问你在过去一个月的一些感受和想法。请根据实际情况选择：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
           "esm_na": 0,
@@ -229,23 +271,15 @@
         "esm": {
           "esm_type": 2,
           "esm_trigger": "baseline_PSS10_P8",
-          "esm_title": "P8 发现自己无法应付必须完成的所有事情。",
-          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
-          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
-          "esm_submit": "下一题",
-          "esm_expiration_threshold": 1440,
-          "esm_na": 0,
-          "scale": "PSS-10",
-          "reverse_scored": false
-        }
-      },
-      {
-        "esm": {
-          "esm_type": 2,
-          "esm_trigger": "baseline_PSS10_P9",
-          "esm_title": "P9 能够控制生活中的烦恼。",
-          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
-          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_title": "P8 在过去的一个月里，有多少时间你感到处理事情得心应手（事情都在你的控制之中）？",
+          "esm_instructions": "以下问题询问你在过去一个月的一些感受和想法。请根据实际情况选择：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
           "esm_na": 0,
@@ -256,10 +290,36 @@
       {
         "esm": {
           "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P9",
+          "esm_title": "P9 在过去的一个月里，有多少时间你因为一些超出自己控制能力的事情而感到愤怒？",
+          "esm_instructions": "以下问题询问你在过去一个月的一些感受和想法。请根据实际情况选择：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
           "esm_trigger": "baseline_PSS10_P10",
-          "esm_title": "P10 感到困难不断累积，已经达到难以克服的程度。",
-          "esm_instructions": "过去一个月内：0 从不；1 偶尔；2 有时；3 经常；4 总是。",
-          "esm_radios": ["0 - 从不", "1 - 偶尔", "2 - 有时", "3 - 经常", "4 - 总是"],
+          "esm_title": "P10 在过去的一个月里，有多少时间你感到问题堆积如山，已经无法逾越？",
+          "esm_instructions": "以下问题询问你在过去一个月的一些感受和想法。请根据实际情况选择：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
           "esm_na": 0,
@@ -509,35 +569,35 @@
       {
         "esm": {
           "esm_type": 4,
-          "esm_trigger": "ema_PSS4_B2_confident",
-          "esm_title": "过去30分钟内，我感到有信心处理个人问题。",
-          "esm_instructions": "1 完全没有；2 较少；3 一般；4 较多；5 非常多。",
+          "esm_trigger": "ema_PSS4_B2_nervous_stressed",
+          "esm_title": "过去30分钟内，我感到紧张和有压力。",
+          "esm_instructions": "请根据过去30分钟内上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。",
           "esm_likert_max": 5,
-          "esm_likert_min_label": "完全没有",
-          "esm_likert_max_label": "非常多",
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
           "esm_likert_step": 1,
           "esm_submit": "提交本次问卷",
           "esm_expiration_threshold": 180,
           "esm_na": 0,
-          "scale": "EMA-PSS-4",
-          "reverse_scored": true
+          "scale": "PSS-EMA",
+          "reverse_scored": false
         }
       },
       {
         "esm": {
           "esm_type": 4,
-          "esm_trigger": "ema_PSS4_B3_as_intended",
-          "esm_title": "过去30分钟内，我感到事情正按照我的意愿发展。",
-          "esm_instructions": "1 完全没有；2 较少；3 一般；4 较多；5 非常多。",
+          "esm_trigger": "ema_PSS4_B3_cannot_cope",
+          "esm_title": "过去30分钟内，我感到无法应付所有需要完成的事情。",
+          "esm_instructions": "请根据过去30分钟内上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。",
           "esm_likert_max": 5,
-          "esm_likert_min_label": "完全没有",
-          "esm_likert_max_label": "非常多",
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
           "esm_likert_step": 1,
           "esm_submit": "提交本次问卷",
           "esm_expiration_threshold": 180,
           "esm_na": 0,
-          "scale": "EMA-PSS-4",
-          "reverse_scored": true
+          "scale": "PSS-EMA",
+          "reverse_scored": false
         }
       },
       {
