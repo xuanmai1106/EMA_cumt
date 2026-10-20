@@ -1,0 +1,1311 @@
+[
+  {
+    "schedule_id": "zz_baseline_20260803",
+    "start_date": "09-29-2026",
+    "end_date": "12-31-2026",
+    "hours": [
+      0
+    ],
+    "randomize": 0,
+    "expiration": 1440,
+    "interface": 0,
+    "context": [],
+    "notification_title": "基线调查问卷",
+    "notification_body": "请完成研究开始前的基线调查问卷。",
+    "esms": [
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A1_gender",
+          "esm_title": "A1 性别",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": [
+            "男",
+            "女"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_A2_age",
+          "esm_title": "A2 年龄（周岁）",
+          "esm_instructions": "请输入周岁年龄。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A3_grade",
+          "esm_title": "A3 年级",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": [
+            "大一",
+            "大二",
+            "大三",
+            "大四",
+            "研一",
+            "研二",
+            "研三",
+            "其他"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 1,
+          "esm_trigger": "baseline_A4_college_major",
+          "esm_title": "A4 学院/专业",
+          "esm_instructions": "请输入所在学院和专业。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_A5_height_cm",
+          "esm_title": "A5 身高（cm）",
+          "esm_instructions": "请输入身高，单位为厘米。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_A6_weight_kg",
+          "esm_title": "A6 体重（kg）",
+          "esm_instructions": "请输入体重，单位为千克。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A7_self_rated_health",
+          "esm_title": "A7 自评健康状况",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": [
+            "很差",
+            "较差",
+            "一般",
+            "较好",
+            "很好"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A8_dormitory",
+          "esm_title": "A8 宿舍居住情况",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": [
+            "单人居住",
+            "2人间",
+            "3-4人间",
+            "5人及以上",
+            "其他"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 1,
+          "esm_trigger": "baseline_A9_school_province",
+          "esm_title": "A9 学校所在省份",
+          "esm_instructions": "请输入学校所在省份（含直辖市、自治区），如广东省、北京市。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A10_primary_phone",
+          "esm_title": "A10 该手机是否为本人日常主要使用手机",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": [
+            "是",
+            "否"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_A11_carry_phone",
+          "esm_title": "A11 研究期间是否能够保持手机基本随身携带",
+          "esm_instructions": "请选择一个选项。",
+          "esm_radios": [
+            "是",
+            "否"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P1",
+          "esm_title": "P1 在过去的一个月里，你有多少时间因为发生意外的事情而感到心烦意乱？",
+          "esm_instructions": "请根据过去一个月内上述感受出现的频率作答：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P2",
+          "esm_title": "P2 在过去的一个月里，有多少时间你感到无法掌控生活中重要的事情？",
+          "esm_instructions": "请根据过去一个月内上述感受出现的频率作答：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P3",
+          "esm_title": "P3 在过去的一个月里，有多少时间你感觉到神经紧张或“快被压垮了”？",
+          "esm_instructions": "请根据过去一个月内上述感受出现的频率作答：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P4",
+          "esm_title": "P4 在过去的一个月里，有多少时间你对自己处理个人问题的能力感到有信心？",
+          "esm_instructions": "请根据过去一个月内上述感受出现的频率作答：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P5",
+          "esm_title": "P5 在过去的一个月里，有多少时间你感到事情发展和你预料的一样？",
+          "esm_instructions": "请根据过去一个月内上述感受出现的频率作答：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P6",
+          "esm_title": "P6 在过去的一个月里，有多少时间你发现自己无法应付那些你必须去做的事情？",
+          "esm_instructions": "请根据过去一个月内上述感受出现的频率作答：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P7",
+          "esm_title": "P7 在过去的一个月里，日常生活中有多少时间你能够控制自己的愤怒情绪？",
+          "esm_instructions": "请根据过去一个月内上述感受出现的频率作答：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P8",
+          "esm_title": "P8 在过去的一个月里，有多少时间你感到处理事情得心应手（事情都在你的控制之中）？",
+          "esm_instructions": "请根据过去一个月内上述感受出现的频率作答：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": true
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P9",
+          "esm_title": "P9 在过去的一个月里，有多少时间你因为一些超出自己控制能力的事情而感到愤怒？",
+          "esm_instructions": "请根据过去一个月内上述感受出现的频率作答：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_PSS10_P10",
+          "esm_title": "P10 在过去的一个月里，有多少时间你感到问题堆积如山，已经无法逾越？",
+          "esm_instructions": "请根据过去一个月内上述感受出现的频率作答：0 从未有；1 几乎没有；2 偶尔；3 经常；4 非常多。",
+          "esm_radios": [
+            "0 - 从未有",
+            "1 - 几乎没有",
+            "2 - 偶尔",
+            "3 - 经常",
+            "4 - 非常多"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "PSS-10",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 13,
+          "esm_trigger": "baseline_24HMBQ_Q01_weekday_bedtime",
+          "esm_title": "H1 过去7天，平日（周一至周五）通常晚上几点上床睡觉？",
+          "esm_instructions": "24HMBQ睡眠部分：请回顾过去7天的实际情况。请选择通常上床睡觉的时刻，例如晚上11:30（23:30）。这里询问上床时刻。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 1,
+          "module": "sleep",
+          "recall_period_days": 7,
+          "response_unit": "time_of_day",
+          "day_type": "weekday"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 13,
+          "esm_trigger": "baseline_24HMBQ_Q02_weekday_wake_time",
+          "esm_title": "H2 过去7天，平日（周一至周五）通常早晨几点醒来？",
+          "esm_instructions": "24HMBQ睡眠部分：请回顾过去7天的实际情况。请选择通常早晨醒来的时刻，例如早晨7:30。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 2,
+          "module": "sleep",
+          "recall_period_days": 7,
+          "response_unit": "time_of_day",
+          "day_type": "weekday"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q03_weekday_nap_minutes",
+          "esm_title": "H3 过去7天，平日（周一至周五）平均每天白天小睡（含午睡）多长时间（分钟）？",
+          "esm_instructions": "24HMBQ睡眠部分：请回顾过去7天的实际情况。请填写白天小睡的累计时长。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 3,
+          "module": "sleep",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_day",
+          "day_type": "weekday"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 13,
+          "esm_trigger": "baseline_24HMBQ_Q04_weekend_bedtime",
+          "esm_title": "H4 过去7天，周末（周六、周日）通常晚上几点上床睡觉？",
+          "esm_instructions": "24HMBQ睡眠部分：请回顾过去7天的实际情况。请选择通常上床睡觉的时刻，例如晚上11:30（23:30）。这里询问上床时刻。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 4,
+          "module": "sleep",
+          "recall_period_days": 7,
+          "response_unit": "time_of_day",
+          "day_type": "weekend"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 13,
+          "esm_trigger": "baseline_24HMBQ_Q05_weekend_wake_time",
+          "esm_title": "H5 过去7天，周末（周六、周日）通常早晨几点醒来？",
+          "esm_instructions": "24HMBQ睡眠部分：请回顾过去7天的实际情况。请选择通常早晨醒来的时刻，例如早晨7:30。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 5,
+          "module": "sleep",
+          "recall_period_days": 7,
+          "response_unit": "time_of_day",
+          "day_type": "weekend"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q06_weekend_nap_minutes",
+          "esm_title": "H6 过去7天，周末（周六、周日）平均每天白天小睡（含午睡）多长时间（分钟）？",
+          "esm_instructions": "24HMBQ睡眠部分：请回顾过去7天的实际情况。请填写白天小睡的累计时长。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 6,
+          "module": "sleep",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_day",
+          "day_type": "weekend"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q07_weekday_study_work_sedentary_minutes",
+          "esm_title": "H7 过去7天，平日（周一至周五）平均每天坐着学习或工作的时间是多少（分钟）？",
+          "esm_instructions": "24HMBQ久坐部分：包括上课、自习和工作等坐着进行的活动。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 7,
+          "module": "sedentary_behavior",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_day",
+          "day_type": "weekday"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q08_weekday_screen_entertainment_sedentary_minutes",
+          "esm_title": "H8 过去7天，平日（周一至周五）平均每天坐着或躺着使用电子屏幕进行娱乐的时间是多少（分钟）？",
+          "esm_instructions": "24HMBQ久坐部分：包括看电视、电影、短视频、玩电子游戏和使用社交媒体等；不包括为了学习或工作使用屏幕的时间。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 8,
+          "module": "sedentary_behavior",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_day",
+          "day_type": "weekday"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q09_weekday_other_sedentary_minutes",
+          "esm_title": "H9 过去7天，平日（周一至周五）平均每天其他坐着或躺着活动的时间是多少（分钟）？",
+          "esm_instructions": "24HMBQ久坐部分：例如用餐、乘坐交通工具等；请排除前面已报告的学习或工作、屏幕娱乐，以及睡眠时间。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 9,
+          "module": "sedentary_behavior",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_day",
+          "day_type": "weekday"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q10_weekend_study_work_sedentary_minutes",
+          "esm_title": "H10 过去7天，周末（周六、周日）平均每天坐着学习或工作的时间是多少（分钟）？",
+          "esm_instructions": "24HMBQ久坐部分：包括上课、自习和工作等坐着进行的活动。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 10,
+          "module": "sedentary_behavior",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_day",
+          "day_type": "weekend"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q11_weekend_screen_entertainment_sedentary_minutes",
+          "esm_title": "H11 过去7天，周末（周六、周日）平均每天坐着或躺着使用电子屏幕进行娱乐的时间是多少（分钟）？",
+          "esm_instructions": "24HMBQ久坐部分：包括看电视、电影、短视频、玩电子游戏和使用社交媒体等；不包括为了学习或工作使用屏幕的时间。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 11,
+          "module": "sedentary_behavior",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_day",
+          "day_type": "weekend"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q12_weekend_other_sedentary_minutes",
+          "esm_title": "H12 过去7天，周末（周六、周日）平均每天其他坐着或躺着活动的时间是多少（分钟）？",
+          "esm_instructions": "24HMBQ久坐部分：例如用餐、乘坐交通工具等；请排除前面已报告的学习或工作、屏幕娱乐，以及睡眠时间。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 12,
+          "module": "sedentary_behavior",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_day",
+          "day_type": "weekend"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q13_study_work_sedentary_break_interval",
+          "esm_title": "H13 过去7天，学习或工作时通常连续坐多久会起身打断？",
+          "esm_instructions": "请综合过去7天的情况，选择通常两次起身之间的间隔；例如站起来放松、去茶水间。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 13,
+          "module": "sedentary_behavior",
+          "recall_period_days": 7,
+          "response_unit": "interval_category",
+          "esm_radios": [
+            "少于30分钟",
+            "30至不足60分钟",
+            "60至不足90分钟",
+            "90至不足120分钟",
+            "120分钟及以上"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q14_screen_entertainment_sedentary_break_interval",
+          "esm_title": "H14 过去7天，使用电子屏幕娱乐时通常连续坐着或躺着多久会起身打断？",
+          "esm_instructions": "请综合过去7天的情况，选择屏幕娱乐中通常两次起身之间的间隔。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 14,
+          "module": "sedentary_behavior",
+          "recall_period_days": 7,
+          "response_unit": "interval_category",
+          "esm_radios": [
+            "少于30分钟",
+            "30至不足60分钟",
+            "60至不足90分钟",
+            "90至不足120分钟",
+            "120分钟及以上"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q15_exercise_vigorous_days",
+          "esm_title": "H15 过去7天，您在日常锻炼（含体育课和健身运动）中有几天进行高强度身体活动？",
+          "esm_instructions": "24HMBQ身体活动部分：高强度活动：感觉费力，呼吸或心率显著加快。 请选择0—7天。同一段活动只计入一个活动领域和一个强度，避免重复。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 15,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "days_per_week",
+          "activity_domain": "exercise",
+          "intensity": "vigorous",
+          "esm_radios": [
+            "0 - 0天（没有）",
+            "1 - 1天",
+            "2 - 2天",
+            "3 - 3天",
+            "4 - 4天",
+            "5 - 5天",
+            "6 - 6天",
+            "7 - 7天"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q16_exercise_vigorous_minutes_per_active_day",
+          "esm_title": "H16 过去7天，在进行上述日常锻炼（含体育课和健身运动）的高强度活动的日子里，平均每天累计多少分钟？",
+          "esm_instructions": "高强度活动：感觉费力，呼吸或心率显著加快。 请填写有此类活动的日子的平均累计时长；同一天多次活动请相加。若上一题选0天，本题填0。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 16,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_active_day",
+          "activity_domain": "exercise",
+          "intensity": "vigorous"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q17_exercise_moderate_days",
+          "esm_title": "H17 过去7天，您在日常锻炼（含体育课和健身运动）中有几天进行中等强度身体活动？",
+          "esm_instructions": "24HMBQ身体活动部分：中等强度活动：感觉有点费力，呼吸或心率有所加快。 请选择0—7天。同一段活动只计入一个活动领域和一个强度，避免重复。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 17,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "days_per_week",
+          "activity_domain": "exercise",
+          "intensity": "moderate",
+          "esm_radios": [
+            "0 - 0天（没有）",
+            "1 - 1天",
+            "2 - 2天",
+            "3 - 3天",
+            "4 - 4天",
+            "5 - 5天",
+            "6 - 6天",
+            "7 - 7天"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q18_exercise_moderate_minutes_per_active_day",
+          "esm_title": "H18 过去7天，在进行上述日常锻炼（含体育课和健身运动）的中等强度活动的日子里，平均每天累计多少分钟？",
+          "esm_instructions": "中等强度活动：感觉有点费力，呼吸或心率有所加快。 请填写有此类活动的日子的平均累计时长；同一天多次活动请相加。若上一题选0天，本题填0。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 18,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_active_day",
+          "activity_domain": "exercise",
+          "intensity": "moderate"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q19_exercise_light_days",
+          "esm_title": "H19 过去7天，您在日常锻炼（含体育课和健身运动）中有几天进行低强度身体活动？",
+          "esm_instructions": "24HMBQ身体活动部分：低强度活动：感觉轻松，呼吸和心率没有明显加快。 请选择0—7天。同一段活动只计入一个活动领域和一个强度，避免重复。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 19,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "days_per_week",
+          "activity_domain": "exercise",
+          "intensity": "light",
+          "esm_radios": [
+            "0 - 0天（没有）",
+            "1 - 1天",
+            "2 - 2天",
+            "3 - 3天",
+            "4 - 4天",
+            "5 - 5天",
+            "6 - 6天",
+            "7 - 7天"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q20_exercise_light_minutes_per_active_day",
+          "esm_title": "H20 过去7天，在进行上述日常锻炼（含体育课和健身运动）的低强度活动的日子里，平均每天累计多少分钟？",
+          "esm_instructions": "低强度活动：感觉轻松，呼吸和心率没有明显加快。 请填写有此类活动的日子的平均累计时长；同一天多次活动请相加。若上一题选0天，本题填0。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 20,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_active_day",
+          "activity_domain": "exercise",
+          "intensity": "light"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q21_transportation_vigorous_days",
+          "esm_title": "H21 过去7天，您在日常交通中有几天进行高强度身体活动？",
+          "esm_instructions": "24HMBQ身体活动部分：高强度活动：感觉费力，呼吸或心率显著加快。例如快速骑自行车。 请选择0—7天。同一段活动只计入一个活动领域和一个强度，避免重复。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 21,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "days_per_week",
+          "activity_domain": "transportation",
+          "intensity": "vigorous",
+          "esm_radios": [
+            "0 - 0天（没有）",
+            "1 - 1天",
+            "2 - 2天",
+            "3 - 3天",
+            "4 - 4天",
+            "5 - 5天",
+            "6 - 6天",
+            "7 - 7天"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q22_transportation_vigorous_minutes_per_active_day",
+          "esm_title": "H22 过去7天，在进行上述日常交通的高强度活动的日子里，平均每天累计多少分钟？",
+          "esm_instructions": "高强度活动：感觉费力，呼吸或心率显著加快。例如快速骑自行车。 请填写有此类活动的日子的平均累计时长；同一天多次活动请相加。若上一题选0天，本题填0。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 22,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_active_day",
+          "activity_domain": "transportation",
+          "intensity": "vigorous"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q23_transportation_moderate_days",
+          "esm_title": "H23 过去7天，您在日常交通中有几天进行中等强度身体活动？",
+          "esm_instructions": "24HMBQ身体活动部分：中等强度活动：感觉有点费力，呼吸或心率有所加快。例如快走、骑自行车。 请选择0—7天。同一段活动只计入一个活动领域和一个强度，避免重复。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 23,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "days_per_week",
+          "activity_domain": "transportation",
+          "intensity": "moderate",
+          "esm_radios": [
+            "0 - 0天（没有）",
+            "1 - 1天",
+            "2 - 2天",
+            "3 - 3天",
+            "4 - 4天",
+            "5 - 5天",
+            "6 - 6天",
+            "7 - 7天"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q24_transportation_moderate_minutes_per_active_day",
+          "esm_title": "H24 过去7天，在进行上述日常交通的中等强度活动的日子里，平均每天累计多少分钟？",
+          "esm_instructions": "中等强度活动：感觉有点费力，呼吸或心率有所加快。例如快走、骑自行车。 请填写有此类活动的日子的平均累计时长；同一天多次活动请相加。若上一题选0天，本题填0。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 24,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_active_day",
+          "activity_domain": "transportation",
+          "intensity": "moderate"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q25_transportation_light_days",
+          "esm_title": "H25 过去7天，您在日常交通中有几天进行低强度身体活动？",
+          "esm_instructions": "24HMBQ身体活动部分：低强度活动：感觉轻松，呼吸和心率没有明显加快。例如滑板、步行。 请选择0—7天。同一段活动只计入一个活动领域和一个强度，避免重复。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 25,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "days_per_week",
+          "activity_domain": "transportation",
+          "intensity": "light",
+          "esm_radios": [
+            "0 - 0天（没有）",
+            "1 - 1天",
+            "2 - 2天",
+            "3 - 3天",
+            "4 - 4天",
+            "5 - 5天",
+            "6 - 6天",
+            "7 - 7天"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q26_transportation_light_minutes_per_active_day",
+          "esm_title": "H26 过去7天，在进行上述日常交通的低强度活动的日子里，平均每天累计多少分钟？",
+          "esm_instructions": "低强度活动：感觉轻松，呼吸和心率没有明显加快。例如滑板、步行。 请填写有此类活动的日子的平均累计时长；同一天多次活动请相加。若上一题选0天，本题填0。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 26,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_active_day",
+          "activity_domain": "transportation",
+          "intensity": "light"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q27_dormitory_vigorous_days",
+          "esm_title": "H27 过去7天，您在日常宿舍生活中有几天进行高强度身体活动？",
+          "esm_instructions": "24HMBQ身体活动部分：高强度活动：感觉费力，呼吸或心率显著加快。例如搬运重物。 请选择0—7天。同一段活动只计入一个活动领域和一个强度，避免重复。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 27,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "days_per_week",
+          "activity_domain": "dormitory",
+          "intensity": "vigorous",
+          "esm_radios": [
+            "0 - 0天（没有）",
+            "1 - 1天",
+            "2 - 2天",
+            "3 - 3天",
+            "4 - 4天",
+            "5 - 5天",
+            "6 - 6天",
+            "7 - 7天"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q28_dormitory_vigorous_minutes_per_active_day",
+          "esm_title": "H28 过去7天，在进行上述日常宿舍生活的高强度活动的日子里，平均每天累计多少分钟？",
+          "esm_instructions": "高强度活动：感觉费力，呼吸或心率显著加快。例如搬运重物。 请填写有此类活动的日子的平均累计时长；同一天多次活动请相加。若上一题选0天，本题填0。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 28,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_active_day",
+          "activity_domain": "dormitory",
+          "intensity": "vigorous"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q29_dormitory_moderate_days",
+          "esm_title": "H29 过去7天，您在日常宿舍生活中有几天进行中等强度身体活动？",
+          "esm_instructions": "24HMBQ身体活动部分：中等强度活动：感觉有点费力，呼吸或心率有所加快。例如搬运轻物、清洁打扫。 请选择0—7天。同一段活动只计入一个活动领域和一个强度，避免重复。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 29,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "days_per_week",
+          "activity_domain": "dormitory",
+          "intensity": "moderate",
+          "esm_radios": [
+            "0 - 0天（没有）",
+            "1 - 1天",
+            "2 - 2天",
+            "3 - 3天",
+            "4 - 4天",
+            "5 - 5天",
+            "6 - 6天",
+            "7 - 7天"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q30_dormitory_moderate_minutes_per_active_day",
+          "esm_title": "H30 过去7天，在进行上述日常宿舍生活的中等强度活动的日子里，平均每天累计多少分钟？",
+          "esm_instructions": "中等强度活动：感觉有点费力，呼吸或心率有所加快。例如搬运轻物、清洁打扫。 请填写有此类活动的日子的平均累计时长；同一天多次活动请相加。若上一题选0天，本题填0。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 30,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_active_day",
+          "activity_domain": "dormitory",
+          "intensity": "moderate"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q31_dormitory_light_days",
+          "esm_title": "H31 过去7天，您在日常宿舍生活中有几天进行低强度身体活动？",
+          "esm_instructions": "24HMBQ身体活动部分：低强度活动：感觉轻松，呼吸和心率没有明显加快。例如做家务、整理衣柜、叠衣服。 请选择0—7天。同一段活动只计入一个活动领域和一个强度，避免重复。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 31,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "days_per_week",
+          "activity_domain": "dormitory",
+          "intensity": "light",
+          "esm_radios": [
+            "0 - 0天（没有）",
+            "1 - 1天",
+            "2 - 2天",
+            "3 - 3天",
+            "4 - 4天",
+            "5 - 5天",
+            "6 - 6天",
+            "7 - 7天"
+          ]
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "baseline_24HMBQ_Q32_dormitory_light_minutes_per_active_day",
+          "esm_title": "H32 过去7天，在进行上述日常宿舍生活的低强度活动的日子里，平均每天累计多少分钟？",
+          "esm_instructions": "低强度活动：感觉轻松，呼吸和心率没有明显加快。例如做家务、整理衣柜、叠衣服。 请填写有此类活动的日子的平均累计时长；同一天多次活动请相加。若上一题选0天，本题填0。 请输入0—1440之间的整数分钟；1小时=60分钟，没有请填0。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 32,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "minutes_per_active_day",
+          "activity_domain": "dormitory",
+          "intensity": "light"
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 2,
+          "esm_trigger": "baseline_24HMBQ_Q33_muscle_strength_training_days",
+          "esm_title": "H33 过去7天，您有几天进行肌肉力量训练？",
+          "esm_instructions": "例如使用健身器械，或进行俯卧撑等自重训练。请选择0—7天；0天表示没有。",
+          "esm_submit": "提交基线问卷",
+          "esm_expiration_threshold": 1440,
+          "esm_na": 0,
+          "scale": "24HMBQ",
+          "source_item_number": 33,
+          "module": "physical_activity",
+          "recall_period_days": 7,
+          "response_unit": "days_per_week",
+          "esm_radios": [
+            "0 - 0天（没有）",
+            "1 - 1天",
+            "2 - 2天",
+            "3 - 3天",
+            "4 - 4天",
+            "5 - 5天",
+            "6 - 6天",
+            "7 - 7天"
+          ],
+          "activity_domain": "muscle_strength_training"
+        }
+      }
+    ],
+    "questionnaire_sources": {
+      "PSS-10": {
+        "instrument": "Perceived Stress Scale 10-item version",
+        "development_reference": "Cohen S, Williamson GM. Perceived stress in a probability sample of the United States. 1988:31-67.",
+        "chinese_translation": "王振，2008，上海交通大学医学院附属精神卫生中心",
+        "chinese_questionnaire_url": "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/pdf/pss_10_simplified_chinese.pdf",
+        "scoring_url": "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/html/pssscoring.html",
+        "reverse_item_numbers": [
+          4,
+          5,
+          7,
+          8
+        ],
+        "scoring": "按选项前的0—4原始分记录；第4、5、7、8题计为4减原始分，再将10题相加，总分0—40。由数据分析程序计算。"
+      },
+      "24HMBQ": {
+        "title": "Development of a 24-hour movement behaviors questionnaire (24HMBQ) for Chinese college students: validity and reliability testing",
+        "authors": [
+          "Jiaxin Zheng",
+          "Teck Cheng Tan",
+          "Kefeng Zheng",
+          "Tao Huang"
+        ],
+        "year": 2023,
+        "journal": "BMC Public Health",
+        "doi": "10.1186/s12889-023-15393-5",
+        "article_url": "https://link.springer.com/article/10.1186/s12889-023-15393-5",
+        "questionnaire_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12889-023-15393-5/MediaObjects/12889_2023_15393_MOESM1_ESM.docx",
+        "item_numbering_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12889-023-15393-5/MediaObjects/12889_2023_15393_MOESM2_ESM.docx",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "adaptation": "依据Supplementary Material 1英文问卷译写为中文并电子化，按Supplementary Material 2保留Q1—Q33映射。原小时和分钟时长统一为分钟；每周天数改为0—7天单选。此为中文译写及电子化适配，未声称经过独立信效度检验。",
+        "recall_period_days": 7,
+        "item_counts": {
+          "sleep": 6,
+          "sedentary_behavior": 8,
+          "physical_activity": 19
+        },
+        "scoring": "分别分析上床和醒来时刻、白天小睡、久坐时长、久坐打断间隔，以及各领域和强度的活动天数和活动日平均分钟数；不计算单一量表总分。",
+        "physical_activity_duration_basis": "minutes_per_active_day",
+        "weekday_definition": "Monday-Friday",
+        "weekend_definition": "Saturday-Sunday"
+      }
+    }
+  },
+  {
+    "schedule_id": "ema_pss4_7day_20260803",
+    "start_date": "09-29-2026",
+    "end_date": "12-31-2026",
+    "hours": [
+      9,
+      15,
+      21
+    ],
+    "randomize": 60,
+    "expiration": 180,
+    "interface": 1,
+    "context": [],
+    "notification_title": "感知压力即时问卷",
+    "notification_body": "请根据过去30分钟内的真实感受完成本次问卷。",
+    "esms": [
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B1_uncontrollable",
+          "esm_title": "过去30分钟内，我感到无法控制生活中重要的事情。",
+          "esm_instructions": "请根据过去30分钟内上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B2_nervous_stressed",
+          "esm_title": "过去30分钟内，我感到紧张和有压力。",
+          "esm_instructions": "请根据过去30分钟内上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B3_cannot_cope",
+          "esm_title": "过去30分钟内，我感到无法应付所有需要完成的事情。",
+          "esm_instructions": "请根据过去30分钟内上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B4_difficulties_piling_up",
+          "esm_title": "过去30分钟内，我感到困难不断累积，已经达到难以克服的程度。",
+          "esm_instructions": "请根据过去30分钟内上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false
+        }
+      }
+    ],
+    "questionnaire_sources": {
+      "PSS-EMA": {
+        "reference": "Murray AL et al. Stress and Health. 2023;39(4):841-853.",
+        "doi": "10.1002/smi.3229",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smi.3229",
+        "adaptation": "依据原文2.4.1节四个负性题项中文译写，回顾过去30分钟，以1—5分表示感受强度。",
+        "reverse_item_numbers": [],
+        "analysis_score": "四题完整作答时取平均分，范围1—5；相加总分范围4—20。由数据分析程序计算。"
+      }
+    }
+  },
+  {
+    "schedule_id": "next_day_recall_20260814",
+    "start_date": "09-29-2026",
+    "end_date": "12-31-2026",
+    "hours": [
+      9
+    ],
+    "randomize": 0,
+    "expiration": 900,
+    "interface": 1,
+    "context": [],
+    "notification_title": "次日回忆问卷",
+    "notification_body": "请回忆前一日行为和前一晚睡眠情况。",
+    "esms": [
+      {
+        "esm": {
+          "esm_type": 13,
+          "esm_trigger": "recall_R1_sleep_onset_time",
+          "esm_title": "前一晚实际入睡时间",
+          "esm_instructions": "请选择您实际睡着的大致时间。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 900,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 13,
+          "esm_trigger": "recall_R2_final_wake_time",
+          "esm_title": "今晨最终醒来时间",
+          "esm_instructions": "请选择今晨最终醒来且不再继续睡的时间。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 900,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "recall_R3_total_sedentary_minutes",
+          "esm_title": "前一日清醒期间的总久坐时长（分钟）",
+          "esm_instructions": "请输入0—1440之间的分钟数。包括坐着、靠着或躺着时使用手机或电脑、学习、交通、用餐和休闲的时间；不包括睡眠、站立和身体活动。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 900,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "recall_R4_off_phone_light_minutes",
+          "esm_title": "前一日离机低强度身体活动时长（分钟）",
+          "esm_instructions": "请填写未随身携带研究手机期间的累计分钟数。低强度活动时呼吸基本没有明显加快，例如慢走、轻松家务或舒缓拉伸；没有请填0。请按实际用力程度归类，同一段活动不要在不同强度中重复计算。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 900,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "recall_R5_off_phone_moderate_minutes",
+          "esm_title": "前一日离机中等强度身体活动时长（分钟）",
+          "esm_instructions": "请填写未随身携带研究手机期间的累计分钟数。中等强度活动时呼吸明显加快但仍能完整说话，例如快走、普通速度骑行或双打球类；没有请填0。请勿重复计算已归入其他强度的活动。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 900,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 9,
+          "esm_trigger": "recall_R6_off_phone_vigorous_minutes",
+          "esm_title": "前一日离机高强度身体活动时长（分钟）",
+          "esm_instructions": "请填写未随身携带研究手机期间的累计分钟数。高强度活动时呼吸明显急促、只能说简短句子，例如跑步、快速骑行或竞技球类；没有请填0。请勿重复计算已归入其他强度的活动。",
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 900,
+          "esm_na": 0
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 3,
+          "esm_trigger": "recall_R7_exception_types",
+          "esm_title": "前一日及前一晚是否存在特殊情况",
+          "esm_instructions": "可多选；若没有特殊情况，仅选择“无特殊情况”。",
+          "esm_checkboxes": [
+            "无特殊情况",
+            "考试或重要考核",
+            "熬夜或通宵",
+            "疾病或身体不适",
+            "外出或旅行",
+            "异常剧烈运动",
+            "较长时间未随身携带手机",
+            "手机关机或没电",
+            "AWARE权限关闭或后台停止",
+            "其他特殊情况"
+          ],
+          "esm_submit": "下一题",
+          "esm_expiration_threshold": 900,
+          "esm_na": 0
+        }
+      }
+    ]
+  }
+]
