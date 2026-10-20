@@ -1,8 +1,8 @@
 [
   {
     "schedule_id": "zz_baseline_20260803",
-    "start_date": "09-29-2026",
-    "end_date": "12-31-2026",
+    "start_date": "10-20-2026",
+    "end_date": "11-02-2026",
     "hours": [
       0
     ],
@@ -65,7 +65,7 @@
           "esm_type": 1,
           "esm_trigger": "baseline_A4_college_major",
           "esm_title": "A4 学院/专业",
-          "esm_instructions": "请输入所在学院和专业。",
+          "esm_instructions": "请输入所在学院和专业。如不方便透露学校，请输入学校所在省份（含直辖市、自治区）如广东省、北京市以及专业。",
           "esm_submit": "下一题",
           "esm_expiration_threshold": 1440,
           "esm_na": 0
@@ -129,17 +129,7 @@
           "esm_na": 0
         }
       },
-      {
-        "esm": {
-          "esm_type": 1,
-          "esm_trigger": "baseline_A9_school_province",
-          "esm_title": "A9 学校所在省份",
-          "esm_instructions": "请输入学校所在省份（含直辖市、自治区），如广东省、北京市。",
-          "esm_submit": "下一题",
-          "esm_expiration_threshold": 1440,
-          "esm_na": 0
-        }
-      },
+
       {
         "esm": {
           "esm_type": 2,
@@ -1109,8 +1099,8 @@
   },
   {
     "schedule_id": "ema_pss4_7day_20260803",
-    "start_date": "09-29-2026",
-    "end_date": "12-31-2026",
+    "start_date": "10-20-2026",
+    "end_date": "11-02-2026",
     "hours": [
       9,
       15,
@@ -1205,8 +1195,8 @@
   },
   {
     "schedule_id": "next_day_recall_20260814",
-    "start_date": "09-29-2026",
-    "end_date": "12-31-2026",
+    "start_date": "10-20-2026",
+    "end_date": "11-02-2026",
     "hours": [
       9
     ],
