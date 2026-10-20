@@ -1220,10 +1220,10 @@
       },
       {
         "esm": {
-          "esm_type": 1,
-          "esm_trigger": "recall_R1_1_daytime_nap_periods",
-          "esm_title": "昨天的白天小睡或打盹情况",
-          "esm_instructions": "请填写昨天每次白天小睡实际睡着至醒来的大致时间，使用24小时制。包括午睡和短暂打盹，不包括夜间主要睡眠，以及只躺着休息但没有睡着的时间。\n没有小睡：填写“无”。\n小睡一次：例如13:10-13:45。\n小睡多次：例如13:10-13:45；17:20-17:35。",
+          "esm_type": 13,
+          "esm_trigger": "recall_R2_final_wake_time",
+          "esm_title": "今晨最终醒来时间",
+          "esm_instructions": "请选择今晨最终醒来且不再继续睡的时间。",
           "esm_submit": "下一题",
           "esm_expiration_threshold": 900,
           "esm_na": 0
@@ -1231,10 +1231,10 @@
       },
       {
         "esm": {
-          "esm_type": 13,
-          "esm_trigger": "recall_R2_final_wake_time",
-          "esm_title": "今晨最终醒来时间",
-          "esm_instructions": "请选择今晨最终醒来且不再继续睡的时间。",
+          "esm_type": 1,
+          "esm_trigger": "recall_R1_1_daytime_nap_periods",
+          "esm_title": "昨天的白天小睡或打盹情况",
+          "esm_instructions": "请填写昨天每次白天小睡实际睡着至醒来的大致时间，使用24小时制。包括午睡和短暂打盹，不包括夜间主要睡眠，以及只躺着休息但没有睡着的时间。\n没有小睡：填写“无”。\n小睡一次：例如13:10-13:45。\n小睡多次：例如13:10-13:45；17:20-17:35。",
           "esm_submit": "下一题",
           "esm_expiration_threshold": 900,
           "esm_na": 0
