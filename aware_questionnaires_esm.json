@@ -1,8 +1,8 @@
 [
   {
     "schedule_id": "zz_baseline_20260803",
-    "start_date": "11-10-2026",
-    "end_date": "11-13-2026",
+    "start_date": "11-12-2026",
+    "end_date": "11-30-2026",
     "hours": [
       9
     ],
@@ -129,7 +129,6 @@
           "esm_na": 0
         }
       },
-
       {
         "esm": {
           "esm_type": 2,
@@ -1098,27 +1097,25 @@
     }
   },
   {
-    "schedule_id": "ema_pss4_7day_20260803",
-    "start_date": "11-08-2026",
-    "end_date": "11-18-2026",
+    "schedule_id": "ema_pss4_morning_20261113",
+    "start_date": "11-13-2026",
+    "end_date": "11-30-2026",
     "hours": [
-      9,
-      15,
-      21
+      9
     ],
     "randomize": 0,
-    "expiration": 360,
+    "expiration": 900,
     "interface": 0,
     "context": [],
-    "notification_title": "感知压力即时问卷",
-    "notification_body": "请根据过去30分钟内的真实感受完成本次问卷。",
+    "notification_title": "感知压力问卷（上午09:00）",
+    "notification_body": "请回忆今天08:30—09:00的真实感受。未完成时可在今晚24:00前补填，每个时段每天只提交一次。",
     "esms": [
       {
         "esm": {
           "esm_type": 4,
           "esm_trigger": "ema_PSS4_B1_uncontrollable",
-          "esm_title": "过去30分钟内，我感到无法控制生活中重要的事情。",
-          "esm_instructions": "请根据过去30分钟内上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。",
+          "esm_title": "今天08:30—09:00，我感到无法控制生活中重要的事情。",
+          "esm_instructions": "请回忆今天08:30—09:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
           "esm_likert_max": 5,
           "esm_likert_min_label": "完全没有或仅有一点",
           "esm_likert_max_label": "极其强烈",
@@ -1127,15 +1124,22 @@
           "esm_expiration_threshold": 180,
           "esm_na": 0,
           "scale": "PSS-EMA",
-          "reverse_scored": false
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
         }
       },
       {
         "esm": {
           "esm_type": 4,
           "esm_trigger": "ema_PSS4_B2_nervous_stressed",
-          "esm_title": "过去30分钟内，我感到紧张和有压力。",
-          "esm_instructions": "请根据过去30分钟内上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。",
+          "esm_title": "今天08:30—09:00，我感到紧张和有压力。",
+          "esm_instructions": "请回忆今天08:30—09:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
           "esm_likert_max": 5,
           "esm_likert_min_label": "完全没有或仅有一点",
           "esm_likert_max_label": "极其强烈",
@@ -1144,15 +1148,22 @@
           "esm_expiration_threshold": 180,
           "esm_na": 0,
           "scale": "PSS-EMA",
-          "reverse_scored": false
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
         }
       },
       {
         "esm": {
           "esm_type": 4,
           "esm_trigger": "ema_PSS4_B3_cannot_cope",
-          "esm_title": "过去30分钟内，我感到无法应付所有需要完成的事情。",
-          "esm_instructions": "请根据过去30分钟内上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。",
+          "esm_title": "今天08:30—09:00，我感到无法应付所有需要完成的事情。",
+          "esm_instructions": "请回忆今天08:30—09:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
           "esm_likert_max": 5,
           "esm_likert_min_label": "完全没有或仅有一点",
           "esm_likert_max_label": "极其强烈",
@@ -1161,15 +1172,22 @@
           "esm_expiration_threshold": 180,
           "esm_na": 0,
           "scale": "PSS-EMA",
-          "reverse_scored": false
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
         }
       },
       {
         "esm": {
           "esm_type": 4,
           "esm_trigger": "ema_PSS4_B4_difficulties_piling_up",
-          "esm_title": "过去30分钟内，我感到困难不断累积，已经达到难以克服的程度。",
-          "esm_instructions": "请根据过去30分钟内上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。",
+          "esm_title": "今天08:30—09:00，我感到困难不断累积，已经达到难以克服的程度。",
+          "esm_instructions": "请回忆今天08:30—09:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
           "esm_likert_max": 5,
           "esm_likert_min_label": "完全没有或仅有一点",
           "esm_likert_max_label": "极其强烈",
@@ -1178,7 +1196,14 @@
           "esm_expiration_threshold": 180,
           "esm_na": 0,
           "scale": "PSS-EMA",
-          "reverse_scored": false
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
         }
       }
     ],
@@ -1187,7 +1212,251 @@
         "reference": "Murray AL et al. Stress and Health. 2023;39(4):841-853.",
         "doi": "10.1002/smi.3229",
         "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smi.3229",
-        "adaptation": "依据原文2.4.1节四个负性题项中文译写，回顾过去30分钟，以1—5分表示感受强度。",
+        "adaptation": "依据原文2.4.1节四个负性题项中文译写，回顾过去30分钟，以1—5分表示感受强度。本日程保留四题中文内容及1—5分编码，将回忆对象固定为当天08:30—09:00，允许当日24:00前补填。迟填属于对该时段的回忆性报告；此补填方案不表示已由原文献验证。",
+        "reverse_item_numbers": [],
+        "analysis_score": "四题完整作答时取平均分，范围1—5；相加总分范围4—20。由数据分析程序计算。"
+      }
+    }
+  },
+  {
+    "schedule_id": "ema_pss4_afternoon_20261113",
+    "start_date": "11-13-2026",
+    "end_date": "11-30-2026",
+    "hours": [
+      15
+    ],
+    "randomize": 0,
+    "expiration": 540,
+    "interface": 0,
+    "context": [],
+    "notification_title": "感知压力问卷（下午15:00）",
+    "notification_body": "请回忆今天14:30—15:00的真实感受。未完成时可在今晚24:00前补填，每个时段每天只提交一次。",
+    "esms": [
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B1_uncontrollable",
+          "esm_title": "今天14:30—15:00，我感到无法控制生活中重要的事情。",
+          "esm_instructions": "请回忆今天14:30—15:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B2_nervous_stressed",
+          "esm_title": "今天14:30—15:00，我感到紧张和有压力。",
+          "esm_instructions": "请回忆今天14:30—15:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B3_cannot_cope",
+          "esm_title": "今天14:30—15:00，我感到无法应付所有需要完成的事情。",
+          "esm_instructions": "请回忆今天14:30—15:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B4_difficulties_piling_up",
+          "esm_title": "今天14:30—15:00，我感到困难不断累积，已经达到难以克服的程度。",
+          "esm_instructions": "请回忆今天14:30—15:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
+        }
+      }
+    ],
+    "questionnaire_sources": {
+      "PSS-EMA": {
+        "reference": "Murray AL et al. Stress and Health. 2023;39(4):841-853.",
+        "doi": "10.1002/smi.3229",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smi.3229",
+        "adaptation": "依据原文2.4.1节四个负性题项中文译写，回顾过去30分钟，以1—5分表示感受强度。本日程保留四题中文内容及1—5分编码，将回忆对象固定为当天14:30—15:00，允许当日24:00前补填。迟填属于对该时段的回忆性报告；此补填方案不表示已由原文献验证。",
+        "reverse_item_numbers": [],
+        "analysis_score": "四题完整作答时取平均分，范围1—5；相加总分范围4—20。由数据分析程序计算。"
+      }
+    }
+  },
+  {
+    "schedule_id": "ema_pss4_evening_20261113",
+    "start_date": "11-13-2026",
+    "end_date": "11-30-2026",
+    "hours": [
+      21
+    ],
+    "randomize": 0,
+    "expiration": 180,
+    "interface": 0,
+    "context": [],
+    "notification_title": "感知压力问卷（晚间21:00）",
+    "notification_body": "请回忆今天20:30—21:00的真实感受。未完成时可在今晚24:00前补填，每个时段每天只提交一次。",
+    "esms": [
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B1_uncontrollable",
+          "esm_title": "今天20:30—21:00，我感到无法控制生活中重要的事情。",
+          "esm_instructions": "请回忆今天20:30—21:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B2_nervous_stressed",
+          "esm_title": "今天20:30—21:00，我感到紧张和有压力。",
+          "esm_instructions": "请回忆今天20:30—21:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B3_cannot_cope",
+          "esm_title": "今天20:30—21:00，我感到无法应付所有需要完成的事情。",
+          "esm_instructions": "请回忆今天20:30—21:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
+        }
+      },
+      {
+        "esm": {
+          "esm_type": 4,
+          "esm_trigger": "ema_PSS4_B4_difficulties_piling_up",
+          "esm_title": "今天20:30—21:00，我感到困难不断累积，已经达到难以克服的程度。",
+          "esm_instructions": "请回忆今天20:30—21:00内的真实感受，根据当时上述感受的强烈程度作答：1 完全没有或仅有一点；2 较轻；3 中等；4 较强；5 极其强烈。补填时仍请回忆指定时段，而非填写当下的感受。",
+          "esm_likert_max": 5,
+          "esm_likert_min_label": "完全没有或仅有一点",
+          "esm_likert_max_label": "极其强烈",
+          "esm_likert_step": 1,
+          "esm_submit": "提交本次问卷",
+          "esm_expiration_threshold": 180,
+          "esm_na": 0,
+          "scale": "PSS-EMA",
+          "reverse_scored": false,
+          "esm_likert_labels": {
+            "1": "完全没有或仅有一点",
+            "2": "较轻",
+            "3": "中等",
+            "4": "较强",
+            "5": "极其强烈"
+          }
+        }
+      }
+    ],
+    "questionnaire_sources": {
+      "PSS-EMA": {
+        "reference": "Murray AL et al. Stress and Health. 2023;39(4):841-853.",
+        "doi": "10.1002/smi.3229",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smi.3229",
+        "adaptation": "依据原文2.4.1节四个负性题项中文译写，回顾过去30分钟，以1—5分表示感受强度。本日程保留四题中文内容及1—5分编码，将回忆对象固定为当天20:30—21:00，允许当日24:00前补填。迟填属于对该时段的回忆性报告；此补填方案不表示已由原文献验证。",
         "reverse_item_numbers": [],
         "analysis_score": "四题完整作答时取平均分，范围1—5；相加总分范围4—20。由数据分析程序计算。"
       }
@@ -1196,7 +1465,7 @@
   {
     "schedule_id": "next_day_recall_20260814",
     "start_date": "11-08-2026",
-    "end_date": "11-18-2026",
+    "end_date": "11-30-2026",
     "hours": [
       7
     ],
